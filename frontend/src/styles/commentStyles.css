@@ -1,0 +1,16 @@
+.commentContainer {
+  background-color: #fff;
+  border-radius: 3px;
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+}
+.commentContainer h4 {
+  margin-bottom: 8px;
+}
+.commentContainer p {
+  font-size: 19px;
+}
+.comments {
+  margin-left: 15px;
+}

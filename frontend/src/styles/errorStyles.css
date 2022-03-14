@@ -1,0 +1,16 @@
+.errorContainer {
+  z-index: 100;
+  position: absolute;
+  width: 90%;
+  background: #c85c5c;
+  padding: 10px 8px;
+  font-size: 20px;
+  left: 50%;
+  color: #fff;
+  font-family: nunito;
+  text-align: center;
+  top: 10.5rem;
+  border-radius: 5px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}

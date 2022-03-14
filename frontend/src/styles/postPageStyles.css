@@ -1,0 +1,45 @@
+.postPageContainer {
+  font-family: Zen Kurenaido;
+}
+.postPageContainer h3 {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.postPageContainer form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+  /* margin-left: 15px; */
+  /* align-items: center; */
+}
+
+.postPageContainer form input,
+textarea {
+  margin: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid black;
+  /* align-self: center; */
+}
+select {
+  padding: 10px;
+  margin: 10px;
+}
+
+.postPageContainer button {
+  width: 150px;
+  align-self: center;
+  padding: 8px;
+  margin: 10px 0;
+  border: none;
+  background-color: #e5e5fe;
+  border-radius: 3px;
+  font-family: zen Kurenaido;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .postPageContainer button {
+    align-self: start;
+  }
+}

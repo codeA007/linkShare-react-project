@@ -1,0 +1,147 @@
+.homeContainer {
+  height: 100%;
+  background-color: #f2f2f2;
+  /* overflow-y: hidden; */
+}
+.topNavbar h3 {
+  padding: 10px 10px 0px 10px;
+  font-size: 24px;
+  font-family: Rampart One;
+}
+.topNavbar {
+  background-color: #e5e5fe;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+.homePageCategory {
+  display: flex;
+  overflow-y: auto;
+  scrollbar-width: none;
+  padding: 10px;
+}
+.homePageCategory p {
+  padding: 5px 8px;
+  margin-right: 5px;
+  background-color: #e5e5fe;
+  border-radius: 3px;
+  font-family: Zen Kurenaido;
+  font-weight: bold;
+}
+.bottomNav {
+  width: 300px;
+  padding: 10px 0;
+  position: fixed;
+  border-radius: 20px;
+  bottom: 5px;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 22px;
+  background-color: #fff;
+  justify-content: space-around;
+  display: flex;
+  box-shadow: 5px 5px 20px #bebebe, -5px -5px 20px #ffffff;
+}
+.bottomNav i {
+  cursor: pointer;
+  /* color: #e5e5fe; */
+  padding: 5px;
+  color: #343e62;
+  border-radius: 5px;
+  /* padding: 5px;
+  border-radius: 5px;
+  background-color: black; */
+}
+/* .bottomNav i:first-child {
+  color: #7b66ff;
+
+  background-color: #e5e5fe;
+} */
+.bottomNavActive i {
+  color: #7b66ff;
+  background-color: #e5e5fe;
+}
+.subNavActive {
+  background-color: #7b66ff;
+  color: #fff;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.linkTypes {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  align-items: center;
+  height: 50px;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  box-shadow: 5px 5px 20px #bebebe;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* .linkType:first-child {
+  background-color: #7b66ff;
+  color: #fff;
+} */
+/* .linkType {
+  color: black;
+} */
+.newLinks,
+.topLinks {
+  display: flex;
+  padding: 7px;
+  border-radius: 3px;
+}
+.newLinks i,
+.topLinks i {
+  margin-right: 5px;
+  font-size: 19px;
+  align-self: center;
+}
+.newLinks p,
+.topLinks p {
+  font-family: zen Kurenaido;
+  font-weight: bold;
+  font-size: 18px;
+}
+/* .cardContainer {
+  font-family: nunito;
+  width: 95%;
+  background-color: #fff;
+  margin: 10px auto;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+.cardContainer button {
+  display: block;
+  padding: 10px 7px;
+  border: none;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.cardContainer .controlls {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  font-size: 23px;
+}
+
+.cardContainer .controlls i {
+  padding: 10px;
+  /* border-radius: 3px;
+  background-color: #e5e5fe;
+  color: #7b66ff; */
+/* } */
+/* .cardContainer p {
+  font-size: 19px;
+}
+.cardContainer a {
+  border: none;
+  text-decoration: none;
+  padding: 8px 0;
+} */

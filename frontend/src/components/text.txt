@@ -1,0 +1,76 @@
+<div className="homePageCategory" onClick={selector} >
+                <p className='category' >All</p>
+                <p className='category' >Movies</p>
+                <p className='category' >Sports</p>
+                <p className='category' >News</p>
+                <p className='category' >Technology</p>
+                <p className='category' >Comedy</p>
+                <p className='category' >Stocks</p>
+                <p className='category' >Crypto</p>
+                <p className='category' >Fasion</p>
+                <p className='category' >AutoMobiles</p>
+                <p className='category' >History</p>
+                <p className='category' >Mythology</p>
+                <p className='category' >Movies</p>
+            </div>
+
+
+
+
+            {(loading) ? <Loading /> : ''}
+            {(!loading) ?
+                <InfiniteScroll
+                    dataLength={posts.length} //This is important field to render the next data
+                    next={onScroll}
+                    hasMore={true}
+                    loader={<img style={{ 'width': '30px' }} src='https://c.tenor.com/I6kN-6X7nhAAAAAj/loading-buffering.gif' />}
+                    endMessage={
+                        <p style={{ textAlign: 'center' }}>
+                            <b>Yay! You have seen it all</b>
+                        </p>
+                    }>
+                    {posts.map((post) => (
+                        <div key={post._id} className='cardContainer' style={{ margin: '20px auto' }} >
+                            <p>{post.title}</p>
+                            <a href={post.link} target='_blank' >{post.link}</a>
+                            <button onClick={() => readMore(post._id)}>Read more</button>
+                            <div className='controlls' onClick={postControlls}>
+                                <i class="fas fa-arrow-up upVote"></i>
+                                <i class="fas fa-arrow-down downVote"></i>
+                                <i class="far fa-bookmark save"></i>
+                                <i class="fas fa-share-alt-square share"></i>
+                            </div>
+                        </div>
+                    ))}
+                </InfiniteScroll> : ''
+            }
+
+            <div className="linkTypes" >
+                <NavLink exact to='/' activeClassName='subNavActive' >
+                    <div className='newLinks linkType' >
+                        <i class="fas fa-calendar-alt"></i>
+                        <p>New Links</p>
+                    </div>
+                </NavLink>
+                <NavLink exact to='/category' activeClassName='subNavActive' >
+                    <div className='topLinks linkType' >
+                        <i class="fas fa-border-all"></i>
+                        <p>Category</p>
+                    </div>
+                </NavLink>
+            </div>
+
+            <div className="linkTypes" >
+                <NavLink exact to='/' activeClassName='subNavActive' >
+                    <div className='newLinks linkType' >
+                        <i class="fas fa-calendar-alt"></i>
+                        <p>New Links</p>
+                    </div>
+                </NavLink>
+                <NavLink exact to='/category' activeClassName='subNavActive' >
+                    <div className='topLinks linkType' >
+                        <i class="fas fa-border-all"></i>
+                        <p>Category</p>
+                    </div>
+                </NavLink>
+            </div>

@@ -1,0 +1,25 @@
+.searchContainer {
+  background: #f2f2f2;
+}
+.searchContainer input {
+  display: block;
+  margin: 10px auto;
+  width: 90%;
+  padding: 8px;
+  border: none;
+  font-family: nunito;
+  font-size: 19px;
+}
+.searchContainer button {
+  width: 150px;
+  padding: 8px;
+  margin: 0 auto;
+  display: block;
+  outline: none;
+  border: none;
+  background: #7b66ff;
+  border-radius: 3px;
+  color: white;
+  font-size: 17px;
+  font-family: nunito;
+}

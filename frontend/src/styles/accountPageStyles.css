@@ -1,0 +1,36 @@
+.accountContainer {
+}
+.accountContainer h4 {
+  font-size: 20px;
+  font-family: nunito;
+  text-align: center;
+}
+.userDetails {
+  background-color: #fff;
+  margin: 10px 0;
+}
+.userAccountControls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+.posts {
+  text-align: center;
+  font-size: 19px;
+  font-family: nunito;
+}
+.userAccountControls button {
+  /* width: 100px; */
+  height: 40px;
+  padding: 0px 10px;
+  /* margin: 0 auto; */
+  display: block;
+  outline: none;
+  border: none;
+  background: #7b66ff;
+  border-radius: 3px;
+  color: white;
+  font-size: 17px;
+  font-family: nunito;
+}

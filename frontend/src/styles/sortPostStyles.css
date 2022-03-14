@@ -1,0 +1,10 @@
+.sortPostsContaier select {
+  padding: 8px 0;
+  width: 110px;
+  text-align: center;
+  background: #7b66ff;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  margin-top: 20px;
+}

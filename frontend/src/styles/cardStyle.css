@@ -1,0 +1,52 @@
+.cardContainer {
+  background-color: #fff;
+  font-family: nunito;
+  height: auto;
+  padding-left: 10px;
+  border: 2px solid #476476;
+  width: 98%;
+  margin: 10px auto;
+  border-radius: 3px;
+}
+.cardContainer h3 {
+  font-size: 22px;
+}
+.cardContainer .readMore {
+  display: block;
+  border: none;
+  width: 151px;
+  margin: 10px auto;
+  border-radius: 3px;
+  padding: 10px 0;
+  font-family: nunito;
+}
+.cardContainer a {
+  color: #7b66ff;
+  display: block;
+  font-size: 19px;
+  /* text-align: center; */
+}
+.cardFooter {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+  /* align-items: center; */
+  text-align: center;
+}
+.cardFooter i {
+  font-size: 20px;
+  padding: 10px;
+}
+.cardFooter p {
+  text-align: center;
+}
+.active {
+  background-color: #e5e5fe;
+  color: #7b66ff;
+  border-radius: 3px;
+}
+.upVote {
+  border: radius 0;
+  color: black;
+  background-color: white;
+}

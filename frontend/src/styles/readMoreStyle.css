@@ -1,0 +1,65 @@
+/* * {
+  background-color: #f2f2f2;
+} */
+.readMoreContainer {
+  font-family: nunito;
+  background-color: #f2f2f2;
+  height: 100%;
+  width: 100vw;
+}
+
+.postDetails {
+  background-color: #fff;
+  width: 100vw;
+  padding: 20px 10px;
+  margin: 15px 0;
+}
+.postDesc {
+  background-color: #fff;
+  height: auto;
+}
+.postDesc h4 {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 25px;
+}
+.postDesc p {
+  font-size: 17px;
+  padding-left: 10px;
+}
+.addComment h4 {
+  padding-left: 10px 0;
+  font-size: 19px;
+  margin-left: 15px;
+}
+.addComment textarea {
+  width: 95%;
+  outline: none;
+}
+.postComment {
+  width: 90px;
+  padding: 8px 0;
+  outline: none;
+  background-color: #7b66ff;
+  color: #ffffff;
+  font-family: nunito;
+  border-radius: 5px;
+  border: none;
+  margin-left: 15px;
+}
+.loadComments {
+  display: flex;
+  justify-content: center;
+}
+.loadComments button {
+  width: 150px;
+  padding: 8px 0;
+  outline: none;
+  background-color: #7b66ff;
+  color: #ffffff;
+  font-family: nunito;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  margin: 15px 0;
+}

@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
+.createAccountContainer {
+  padding-top: 20px;
+  background: #f5f6ff;
+  height: 100vh;
+}
+.brand {
+  text-align: center;
+  font-size: 24px;
+}
+.brand h3 {
+  font-family: Rampart One;
+  padding: 15px 0;
+}
+.brand img {
+  padding-bottom: 15px;
+}
+.formContainer {
+  /* display: none; */
+}
+.formContainer h3 {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  font-family: Zen Kurenaido;
+}
+.formContainer form div {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 15px auto;
+  font-family: Zen Kurenaido;
+  font-size: 18px;
+  font-weight: bold;
+}
+.formContainer form div input {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+}
+.formContainer .next {
+  margin: 0 auto;
+  align-items: center;
+  width: 120px;
+  padding: 8px;
+  border: none;
+  border-radius: 3px;
+  background-color: black;
+  color: #fff;
+  font-family: Zen Kurenaido;
+  font-weight: bold;
+  font-size: 16px;
+}
+.categoryContainer {
+  display: none;
+}
+.categoryContainer h3 {
+  text-align: center;
+  font-family: Zen Kurenaido;
+  padding: 15px 0;
+  font-size: 24px;
+}
+.categorySelector {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  -ms-grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  justify-items: space-around;
+  align-items: center;
+}
+.categorySelector h4 {
+  text-align: center;
+  padding: 10px 8px;
+  width: 90%;
+  font-size: 19px;
+  font-family: Zen Kurenaido;
+  cursor: pointer;
+  align-self: center;
+  border-radius: 5px;
+  justify-self: center;
+}
+.actionBtn {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.actionBtn button {
+  width: 150px;
+  padding: 10px 0;
+  font-family: zen Kurenaido;
+  font-size: 16px;
+  color: #fff;
+  background-color: #343e62;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.category {
+  background-color: #e5e5fe;
+}
+.activeCategory {
+  background: #7b66ff;
+  color: #fff;
+}
+/* lapto screens */
+@media screen and (min-width: 768px) {
+  /* body {
+    width: 100%;
+  } */
+  .createAccountContainer {
+    padding-top: 0;
+    background-color: #fff;
+    display: flex;
+    /* width: 500px; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .container2 {
+    background-color: #e5e5fe;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+  }
+  .brand {
+    align-self: center;
+    border-right: 2px black solid;
+  }
+  .formContainer {
+    flex: 2;
+  }
+  .next {
+    cursor: pointer;
+  }
+  .categoryContainer {
+    width: 100%;
+    background-color: #f5f6ff;
+    border-radius: 5px;
+    flex: 2;
+  }
+  .categorySelector {
+    grid-gap: 10px;
+    background-color: #f5f6ff;
+    justify-content: space-around;
+    /* margin-left: 8px; */
+  }
+  .categorySelector h4 {
+    font-size: 18px;
+    padding: 5px 6px;
+    width: 80%;
+    justify-self: center;
+  }
+  .actionBtn button {
+    width: 120px;
+    padding: 6px 0;
+    margin-bottom: 15px;
+  }
+}
